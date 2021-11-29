@@ -1,0 +1,39 @@
+.widgetLarge {
+  flex: 2;
+  margin: 0 10px;
+  padding: 15px;
+  box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -webkit-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -moz-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+}
+
+.widgetLargeTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.widgetLargeImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLargeUser {
+  display: flex;
+  align-items: center;
+}
+
+.widgetLargeTable {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.widgetLargeHeading {
+  text-align: left;
+}
+
+.widgetLargeName {
+  font-weight: 600;
+}
