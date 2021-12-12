@@ -1,0 +1,50 @@
+.newUser {
+  flex: 4;
+  height: calc(100vh-50px);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.userForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userFieldItem {
+  width: 400px;
+}
+
+.sample {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.Label {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.ipt {
+  width: 400px;
+}
+
+.userSelect {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btnCreate {
+  width: 200px;
+  background-color: darkblue;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}

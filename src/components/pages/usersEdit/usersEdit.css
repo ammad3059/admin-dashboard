@@ -1,0 +1,124 @@
+.usersEdit {
+  flex: 4;
+  padding: 20px;
+}
+
+.userEditTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btnAdd {
+  background-color: seagreen;
+  color: white;
+  border-radius: 10px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+.usersEditBottom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.usersDetailsLeft {
+  padding: 10px;
+  padding-left: 20px;
+  flex: 1;
+  margin-right: 20px;
+  box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -webkit-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -moz-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+}
+
+.usersEditRight {
+  padding: 10px 20px;
+
+  flex: 2;
+  box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -webkit-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+  -moz-box-shadow: -2px 2px 5px 6px rgba(204, 196, 196, 0.75);
+}
+
+.usersImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.usersDetailsTop {
+  display: flex;
+  align-items: center;
+}
+.usersDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.usersName {
+  font-weight: 600;
+}
+
+.usersJob {
+  font-weight: 300;
+}
+
+.usersDetailsBottom {
+  margin-top: 20px;
+}
+.userAccountTitle {
+  color: gray;
+  margin-left: 5px;
+}
+
+.userAccount {
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+.userIcon {
+  margin-right: 5px;
+}
+
+.usersFormTitle {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.editForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.usersImage.Large {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.editRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateButton {
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+}
